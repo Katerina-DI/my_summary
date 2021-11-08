@@ -1,0 +1,103 @@
+
+.homesection {
+    background: $neutral;
+    .container {
+        padding: 52px 0px 50px 52px;
+        
+    }
+    .homesection_contacts{
+        @include flex-row;
+        img {
+            width: 16px;
+            height: 16px;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            margin: 0px 6px;
+        }
+        p {
+            font-family: $primaryFontRegular;
+            color: $black;
+            margin: 0px 35px 45px 0px;
+            font-size: 10px;
+            line-height: 150%;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.3px;
+        }
+    }
+    .about_me {
+        @include flex-row;
+       .info {
+           padding-right: 32px;
+            h2{
+                font-family: $primaryFontBold;
+                color: $accent-dark;
+                font-size: 13px;
+                line-height: 180%;
+                letter-spacing: 0.15em;
+                text-transform: uppercase;
+            }
+            h1 {
+                font-family: $primaryFontRegular;
+                color: $accent-dark;
+                font-size: 30px;
+                line-height: 100%;
+                text-transform: capitalize;
+                flex: none;
+                order: 1;
+                flex-grow: 0;
+                margin: 12px 0px 50px;
+            }
+            h3 {
+                color: $primary;
+                font-family: $primaryFontBold;
+                font-size: 13px;
+                line-height: 180%;
+                display: flex;
+                align-items: center;
+                letter-spacing: 0.3em;
+                text-transform: uppercase;
+
+            }
+            p {
+                // font-family: $primaryFontItalic;
+                color: $black;
+                font-size: 13px;
+                line-height: 150%;
+                letter-spacing: 0.3px;
+                margin-bottom: 24px;
+            }
+       }
+       .photo_me {
+            width: 360px;
+            height: 421px;
+            background: rgba(132, 82, 42, 0.12);
+            img {
+                width: 355px;
+                height: 420px;
+
+            }
+            
+       }
+    }
+    .social_network {
+        @include flex-row;
+        margin-top: 30px;
+        a {
+            font-family: $primaryFontRegular;
+            color: $black;
+            font-size: 10px;
+            line-height: 150%;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.3px;
+            margin: 0px 13px 0px 9px;
+        }
+        img {
+            width: 16px;
+            height: 16px;
+        }
+    }
+    
+}

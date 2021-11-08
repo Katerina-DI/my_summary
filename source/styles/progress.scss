@@ -1,0 +1,37 @@
+.s_skills, .h_skills {
+    h3 {
+        color: $primary;
+        font-family: $primaryFontBold;
+        font-size: 13px;
+        line-height: 180%;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        margin-top: 27px;
+    }
+    p {
+        font-family: $primaryFontRegular;
+        color: $black;
+        font-size: 13px;
+        line-height: 150%;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.3px;
+        margin: 12px 0px 0px 0px;
+        
+    }
+    .progress {
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 6px 0px 0px 0px;
+        background: #dbc5b3;
+        height: 3.16px;
+        width: 90%;
+    }
+    .progress-bar {
+        background: $primary;
+}    
+
+}

@@ -55,18 +55,20 @@
                 font-size: 13px;
                 line-height: 180%;
                 display: flex;
+                justify-content: center;
                 align-items: center;
-                letter-spacing: 0.3em;
-                text-transform: uppercase;
+                letter-spacing: 0.1em;
+                margin-top: 5%;
+                
 
             }
             p {
-                // font-family: $primaryFontItalic;
+                font-family: $primaryFontItalic;
                 color: $black;
                 font-size: 13px;
                 line-height: 150%;
                 letter-spacing: 0.3px;
-                margin-bottom: 24px;
+                margin-bottom: 12px;
             }
        }
        .photo_me {
@@ -83,7 +85,7 @@
     }
     .social_network {
         @include flex-row;
-        margin-top: 30px;
+        margin-top: 10px;
         a {
             font-family: $primaryFontRegular;
             color: $black;
